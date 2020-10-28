@@ -6,10 +6,13 @@ a top 5 score in the Analytics Vidhya Topic Modeling for Research Articles 2.0 H
 * The challenge consisted of using the natural language processing (NLP) to predict 25 tags for each scientific article
 based on its abstract and a broad category.
 * The training set contained the following data:
+
 ![train set](Data/train_set.PNG)
 * The test set looked as follows:
+
 ![test set](Data/test_set.PNG)
 * And the sample submission:
+
 ![sample](Data/sample_sub.PNG)
 * In my approach I decided to use state-of-the-art pretrained NLP models called transformers.
 Specifically the BERT, roBERTa, ELECTRA, distilBERT and XLM-roBERTa
